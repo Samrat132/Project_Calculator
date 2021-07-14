@@ -93,16 +93,17 @@ button8= Button(window, text="8", padx=50, pady=25,fg="black",bg="sky blue",comm
 button9= Button(window, text="9", padx=50, pady=25,fg="black",bg="sky blue",command=lambda: buttonclick(9))
 
 button0= Button(window, text="0", padx=50, pady=25,fg="black",bg="sky blue",command=lambda: buttonclick(0))
-buttonclear= Button(window, text="Clear", padx=95, pady=25,fg="black",bg="red",command=buttonclear)
+buttonclear= Button(window, text="Clear", padx=95, pady=25,fg="black",bg="silver",command=buttonclear)
 buttonequal= Button(window, text="=", padx=105, pady=25,fg="black",bg="purple",command=buttonequal)
 
 buttonclick_allclear= Button(window, text="AC", padx=45,fg="black",bg="orange", pady=25,command=buttonclick_allclear)
-buttonadd= Button(window, text="+", padx=50, pady=25,command= buttonadd)
-buttonsub= Button(window, text="-", padx=50, pady=25,command=buttonsub)
+buttonadd= Button(window, text="+", padx=50, pady=25,fg="black",bg="green",command= buttonadd)
+buttonsub= Button(window, text="-", padx=50, pady=25,fg="black",bg="green",command=buttonsub)
 
-buttonmul= Button(window, text="*", padx=50, pady=25,command=buttonmul)
-buttondiv= Button(window, text="/", padx=50, pady=25,command= buttondiv)
-buttonpoint= Button(window, text=".", padx=50, pady=25,command=lambda: buttonclick("."))
+buttonmul= Button(window, text="*", padx=50, pady=25,fg="black",bg="green",command=buttonmul)
+buttondiv= Button(window, text="/", padx=50, pady=25,fg="black",bg="green",command= buttondiv)
+buttonpoint= Button(window, text=".", padx=50, pady=25,fg="black",bg="brown",command=lambda: buttonclick("."))
+
 
 
 
