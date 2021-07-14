@@ -43,3 +43,13 @@
   <h1> AIM OF THE PROJECT <h1> 
   
   To build a basic application by using tkinter.
+   <br>
+   
+   <h2> All about myself <h2>
+   Name: Samrat Rijal <br>
+   Student ID : 210271 <br>
+   Batch : Computing Batch 30B <br>
+   Email : samratrai733@gmail.com
+   
+   
+   
